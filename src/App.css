@@ -6,7 +6,7 @@
 }
 
 .editor-wrapper {
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -19,8 +19,11 @@
   height: 100%;
   background: purple;
   word-wrap: break-word;
-  border-left: 1px solid yellow;
+  border-left: 3px solid yellow;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #editor {
@@ -33,7 +36,7 @@
 }
 
 #preview img {
-  width: 20%;
+  width: 200px;
 }
 
 #preview a {
